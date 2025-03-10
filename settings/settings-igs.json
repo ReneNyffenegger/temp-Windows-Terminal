@@ -1,0 +1,114 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
+            },
+            {
+                "guid": "{4ebdc201-93f2-5914-a6fa-6f6bf882cbea}",
+                "hidden": false,
+                "name": "OracleLinux_9_1",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{7b072493-0506-5383-9b88-8b7a68cfe9bb}",
+                "hidden": false,
+                "name": "OracleLinux_8_7",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{acf6acfd-b2c0-5e2e-a8a1-c95197dd05e7}",
+                "hidden": false,
+                "name": "debian-imported",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{473f6c78-8508-50f2-b72e-7f0c30e594bd}",
+                "hidden": false,
+                "name": "minimal",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{3bdf6b1c-4125-5907-b4a8-dbd6f1f6333a}",
+                "hidden": false,
+                "name": "lfs",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{ebac71c5-6747-5d6f-8043-13c08f8b28fa}",
+                "hidden": false,
+                "name": "debian-slim",
+                "source": "Microsoft.WSL"
+            }
+        ]
+    },
+    "schemes": [],
+    "themes": []
+}
